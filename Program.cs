@@ -22,5 +22,5 @@ namespace BikeWatcher
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-    }
+  }
 }

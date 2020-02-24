@@ -25,6 +25,7 @@ namespace BikeWatcher.Controllers
 
     public IActionResult ListeDesStations()
     {
+      var Data = ApiController.ProcessRepositories();
       return View();
     }
 
