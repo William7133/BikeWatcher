@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -23,7 +23,17 @@ namespace BikeWatcher.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+    public IActionResult ListeDesStations()
+    {
+      return View();
+    }
+
+    public IActionResult Carte()
+    {
+      return View();
+    }
+
+    public IActionResult MesFavoris()
         {
             return View();
         }
