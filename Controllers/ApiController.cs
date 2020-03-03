@@ -21,7 +21,6 @@ namespace BikeWatcher.Controllers
     }
 
     private static readonly HttpClient client = new HttpClient();
-    private bool name;
 
     static async Task Main(string[] args)
     {
