@@ -36,7 +36,7 @@ namespace BikeWatcher.Controllers
 
     public IActionResult MesFavoris()
         {
-            return View();
+           return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
